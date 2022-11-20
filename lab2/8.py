@@ -2,9 +2,10 @@ class Bank:
 
     def __init__(self, balance):
         self.balance = balance
-        self.exchange_rate = True
+
 
     is_usd = False
+
 
     def add_money(self, money):
         self.balance += money
