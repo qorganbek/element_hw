@@ -7,6 +7,8 @@ def pow(a, n):
     return res
 
 
-a = float(input())
-n = float(input())
+
+s = input()
+a = int(s.split()[0])
+n = int(s.split()[1])
 print(pow(a, n))
