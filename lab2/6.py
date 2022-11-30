@@ -1,7 +1,7 @@
 def pow(a, n):
     if n == 0:
         return 1
-    res = pow(a * a, n // 2)
+    res = pow(a * a, int(n / 2))
     if n % 2:
         res *= a
     return res
