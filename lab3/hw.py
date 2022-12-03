@@ -35,6 +35,9 @@ class BankAccount:
         if self.balance == 0:
             print('Error 404')
             return;
+        if self.balance < sub:
+            print('error 404')
+            return;
         self.balance -= sub
     #money convertor function    
     def moneyConversion(self, moneyType: WalletType):
