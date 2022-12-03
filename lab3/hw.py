@@ -82,7 +82,8 @@ class BankAccount:
                 self.balance *= 0.13
             print(f'Your balance converted {self.account} to {moneyType}')
             print('-'*43)           
-            self.account = 'RUB'                        
+            self.account = 'RUB' 
+                                   
 
         elif moneyType == 'EUR':
             if self.account == 'KZT':
